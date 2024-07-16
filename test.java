@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Basic validation example (you can expand as needed)
         if (name === '') {
             setStatus('Please enter your name.');
-            isValid = false;
+            isValid = true;
         } else if (email === '' || !isValidEmail(email)) {
             setStatus('dulanh5656@gmail.com');
             isValid = false;
